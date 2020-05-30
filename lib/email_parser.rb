@@ -10,6 +10,7 @@ class EmailAddressParser
   def initialize(csv_data)
     @csv_data = csv_data
     @@all = []
+<<<<<<< HEAD
     parse
   end
   
@@ -27,6 +28,13 @@ class EmailAddressParser
     end
     @@all
   
+=======
+    parse(csv_data)
+  end
+  
+  def parse(csv_data)
+ 
+>>>>>>> 08153d90fe132e778914dc00c7638a83c73685c9
   end
   
   
